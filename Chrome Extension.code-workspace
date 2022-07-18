@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "images",
+            "path": "../Downloads/images"
+        },
+        {
+            "name": "Chrome Extension",
+            "path": "."
+        }
+    ]
+}

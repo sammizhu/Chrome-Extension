@@ -1,0 +1,33 @@
+body {
+    background-color: #FFFAF2;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    vertical-align:right;
+  }
+
+button.setting {
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fffdd2;
+    border-width: 1px;
+  }
+  
+button.setting:hover {
+    background-color: white;
+  }
+  
+.disabled-link {
+    text-decoration: none;
+  }
+
+button.style {
+  display: block;
+  margin: 15px;
+  width: 90%;
+  text-align: center;
+}
+
+.text{
+  text-align: center;
+}

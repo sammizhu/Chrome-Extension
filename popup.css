@@ -1,0 +1,30 @@
+body {
+    background-color: #F5D5CB;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    background-image: url(/images/Default.png);
+    background-size: cover;
+  }
+
+button {
+  display: block;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #fffdd2;
+  margin: 10px;
+  text-align: right;
+  text-decoration: none;
+  border-width: 1px;
+  padding: 3%
+}
+
+button:hover {
+  background-color: white;
+}
+
+.disabled-link {
+  text-decoration: none;
+}
+
+

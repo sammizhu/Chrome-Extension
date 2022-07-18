@@ -1,0 +1,74 @@
+body {
+  background-color: #F5D5CB;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  vertical-align:right;
+  background-image: url(/images/Calculator.png);
+  background-size: cover;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.calculator-grid {
+  padding-top: 25px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  grid-template-columns: repeat(4, 40px);
+  grid-template-rows: minmax(40px, auto) repeat(5, 30px);
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+ }
+
+.calculator-grid > button:hover {
+  background-color: rgba(225,225,225,0.9);
+}
+
+.span-two {
+  grid-column: span 2;
+} 
+
+.output {
+  grid-column: 1/-1;
+  background-color: rgba(0,0,0,.75);
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 1.5rem;
+}
+
+button.press {
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #fffdd2;
+  text-align: center;
+  border-width: 1px;
+}
+
+button.press:hover {
+  background-color: white;
+}
+
+.disabled-link {
+  text-decoration: none;
+}
